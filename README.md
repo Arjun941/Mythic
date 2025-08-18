@@ -1,8 +1,7 @@
 # 🎴 Mythic
 
 
-Mythic is a web application that lets you upload an image and instantly generate a trading card. It uses Google’s Gemini AI to analyze the photo, create meaningful stats, assign icons, and generate a short description.
-
+Ever imagined your cat as a dimension-hopping demigod? Stop wondering. Mythic lets you turn your everyday clicks into cool looking Pokémon cards.
 
 
 ## ✨ Features
@@ -14,11 +13,13 @@ Mythic is a web application that lets you upload an image and instantly generate
 * Generates a short backstory or description
 * Assigns card rarity (common, rare, legendary, etc.)
 
-### Visuals & Icons
+### Visuals,Music & Icons
 
 * Automatically selects from 40+ icons that best match your stats
 * Smooth animations and responsive design
 * Works on desktop, tablet, and mobile
+* OG Pokemon music from Pokemon X/Y (Kalos Region)
+* Nintendo-inspired SFX when clicking buttons
 
 ### Progressive Web App (PWA)
 
