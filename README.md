@@ -1,5 +1,8 @@
-# 🎴 Mythic!
 
+![Mythic](https://i.ibb.co/ZwHC4L5/banner.png)
+
+
+# 🎴 Mythic!
 
 Ever imagined your cat as a dimension-hopping demigod? Stop wondering. Mythic lets you turn your everyday clicks into cool looking Pokémon cards.
 
