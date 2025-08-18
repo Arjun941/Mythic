@@ -67,6 +67,41 @@ Ever imagined your cat as a dimension-hopping demigod? Stop wondering. Mythic le
 5. **Open the app**
    Go to [http://localhost:9002](http://localhost:9002) in your browser.
 
+### Project Structure
+
+```
+src/
+├── ai/                           # AI integration and flows
+│   ├── flows/                    # Genkit AI processing flows
+│   │   ├── analyze-image-generate-stats-lore.ts  # Main AI card generation
+│   │   ├── generate-lore-description.ts          # Lore generation helper
+│   │   └── validate-api-key.ts                   # API key validation
+│   ├── dev.ts                    # Development AI server
+│   ├── genkit.ts                 # AI configuration and setup
+│   └── schemas.ts                # Data validation schemas
+├── app/                          # Next.js app router pages
+│   ├── create/                   # Card creation page
+│   ├── offline/                  # Offline support page
+│   ├── globals.css               # Global styles and themes
+│   ├── layout.tsx                # Root layout with PWA config
+│   └── page.tsx                  # Landing page
+├── components/                   # React UI components
+│   ├── ui/                       # Reusable UI primitives (buttons, dialogs, etc.)
+│   ├── card-creator.tsx          # Main card creation interface
+│   ├── card-details-dialog.tsx   # Detailed card view modal
+│   ├── landing-hero.tsx          # Homepage hero section
+│   ├── loading-animation.tsx     # Loading states and spinners
+│   ├── mythic-card.tsx           # Card display component
+│   └── pokedex-frame.tsx         # Pokemon-style frame wrapper
+├── hooks/                        # Custom React hooks
+│   ├── use-mobile.tsx            # Mobile device detection
+│   └── use-toast.ts              # Toast notification system
+└── lib/                          # Utilities and helpers
+    ├── icon-mapping.ts           # Dynamic icon assignment system
+    ├── types.ts                  # TypeScript type definitions
+    └── utils.ts                  # Common utility functions
+```
+
 
 ## 🎮 How to Use
 
