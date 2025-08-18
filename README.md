@@ -1,5 +1,5 @@
 
-![Mythic](https://i.ibb.co/ZwHC4L5/banner.png)
+![Mythic](https://i.ibb.co/fK8761f/image.png)
 
 
 # 🎴 Mythic!
