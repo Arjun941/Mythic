@@ -215,7 +215,7 @@ export function LandingHero() {
             className="z-10 w-full max-w-lg mx-auto bg-card/80 backdrop-blur-sm p-4 sm:p-6 rounded-lg border-2 border-primary/50"
         >
           <div className="font-code text-center">
-            <h3 className="text-lg md:text-xl font-bold text-card-foreground">A Quick Note from the Creator!</h3>
+            <h3 className="text-lg md:text-xl font-bold text-card-foreground">A Quick Note!</h3>
             <p className="text-sm md:text-base text-card-foreground/80 mt-2">
               This whole thing runs on AI credits, and the dumb creator of this app is broke AF. To keep this site from blowing up (and to save him from selling a kidney), please consider using your own Google AI API key.
             </p>
