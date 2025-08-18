@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Press Start 2P', monospace;
+  background: linear-gradient(135deg, 
+    #FF6B35 0%,     /* Bright orange */
+    #FF5722 20%,    /* Medium orange */
+    #FF4500 40%,    /* Orange red */
+    #FF3311 60%,    /* Flame red */
+    #FF2500 80%,    /* Flame red */
+    #FF4500 100%    /* Orange red */
+  );
+  min-height: 100vh;
+}
+
+@layer base {
+  :root {
+    --background: 16 100% 50%; /* #FF4500 flame orange */
+    --foreground: 0 0% 98%; /* #fafafa off-white */
+    --card: 16 100% 78%; /* #ffab91 light orange */
+    --card-foreground: 0 0% 13%;
+    --popover: 16 100% 78%;
+    --popover-foreground: 0 0% 13%;
+    --primary: 1 79% 52%; /* #e53935 fiery red */
+    --primary-foreground: 0 0% 100%; /* #ffffff white */
+    --secondary: 16 100% 85%;
+    --secondary-foreground: 0 0% 13%;
+    --muted: 16 100% 90%;
+    --muted-foreground: 0 0% 45%;
+    --accent: 56 99% 61%; /* #ffeb3b bright yellow */
+    --accent-foreground: 0 0% 13%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 98% / 0.2;
+    --input: 16 100% 78%;
+    --ring: 1 79% 52%;
+    --radius: 0.8rem;
+  }
+ 
+  .dark {
+    --background: 0 0% 13%;
+    --foreground: 0 0% 98%;
+    --card: 0 0% 18%;
+    --card-foreground: 0 0% 98%;
+    --popover: 0 0% 13%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 16 100% 63%;
+    --primary-foreground: 0 0% 13%;
+    --secondary: 0 0% 20%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 0 0% 20%;
+    --muted-foreground: 0 0% 64%;
+    --accent: 56 99% 61%;
+    --accent-foreground: 0 0% 13%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 0 0% 98% / 0.1;
+    --input: 0 0% 20%;
+    --ring: 16 100% 63%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    background-image: radial-gradient(hsl(var(--primary) / 0.5) 1px, transparent 1px);
+    background-size: 20px 20px;
+  }
+}
