@@ -10,7 +10,7 @@ Ever imagined your cat as a dimension-hopping demigod? Stop wondering. Mythic le
 
 * Analyzes your image to understand its content
 * Creates 4 unique stats based on categories (human, animal, object, food, random)
-* Generates a short backstory or description
+* Generates custom lore and weird facts
 * Assigns card rarity (common, rare, legendary, etc.)
 
 ### Visuals,Music & Icons
@@ -28,7 +28,7 @@ Ever imagined your cat as a dimension-hopping demigod? Stop wondering. Mythic le
 * Supports both file upload and direct camera capture
 
 
-## 🚀 Quick Start
+## 🚀 Quick Start for local development
 
 ### Requirements
 
@@ -67,14 +67,13 @@ Ever imagined your cat as a dimension-hopping demigod? Stop wondering. Mythic le
 5. **Open the app**
    Go to [http://localhost:9002](http://localhost:9002) in your browser.
 
----
 
 ## 🎮 How to Use
 
 1. Upload or capture a photo
 2. Let the AI analyze and generate stats
 3. View your card with rarity, icons, and description
-4. Tap or click for detailed information
+4. Tap or click for detailed info like advanced stats and lore
 
 
 
@@ -90,17 +89,10 @@ Ever imagined your cat as a dimension-hopping demigod? Stop wondering. Mythic le
 
 ## 📦 Deployment
 
-### Recommended: Vercel
-
 * Fork the repository
-* Connect to Vercel
+* Connect to your preferred hosting provider
 * Add environment variables
 * Deploy directly
-
-### Other Options
-
-* Docker container
-* Manual server deployment
 
 ## 🤝 Contributing
 
@@ -115,4 +107,4 @@ Ever imagined your cat as a dimension-hopping demigod? Stop wondering. Mythic le
 Open source. Free to use and modify.
 
 ## 📷 Screenshots
----
+TBA
