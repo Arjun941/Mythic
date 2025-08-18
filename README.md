@@ -1,10 +1,9 @@
 # 🎴 Mythic
 
-**Transform photos into unique trading cards with AI-powered stats and details.**
 
 Mythic is a web application that lets you upload an image and instantly generate a trading card. It uses Google’s Gemini AI to analyze the photo, create meaningful stats, assign icons, and generate a short description.
 
----
+
 
 ## ✨ Features
 
@@ -27,7 +26,6 @@ Mythic is a web application that lets you upload an image and instantly generate
 * Works offline after installation
 * Supports both file upload and direct camera capture
 
----
 
 ## 🚀 Quick Start
 
@@ -77,7 +75,7 @@ Mythic is a web application that lets you upload an image and instantly generate
 3. View your card with rarity, icons, and description
 4. Tap or click for detailed information
 
----
+
 
 ## 🛠️ Technical Overview
 
@@ -88,7 +86,6 @@ Mythic is a web application that lets you upload an image and instantly generate
 * **UI Components**: shadcn/ui
 * **AI Integration**: Google Gemini via Genkit
 
----
 
 ## 📦 Deployment
 
@@ -104,8 +101,6 @@ Mythic is a web application that lets you upload an image and instantly generate
 * Docker container
 * Manual server deployment
 
----
-
 ## 🤝 Contributing
 
 1. Fork the repository
@@ -113,7 +108,6 @@ Mythic is a web application that lets you upload an image and instantly generate
 3. Make changes and test them
 4. Submit a pull request
 
----
 
 ## 📄 License
 
