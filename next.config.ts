@@ -9,6 +9,13 @@ const nextConfig: NextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  // Configure server action body size limit (default is 1MB)
+  experimental: {
+    serverActions: {
+      // Accepts number of bytes or strings like '25mb'
+      bodySizeLimit: '25mb',
+    },
+  },
   // Allow images from placeholder service
   images: {
     remotePatterns: [
