@@ -245,7 +245,7 @@ Base your decision on factors like image quality, composition, subject matter un
 Return ONLY the JSON object, no additional text or formatting.`;
 
     const { text } = await ai.generate({
-      model: 'googleai/gemini-2.0-flash',
+      model: 'googleai/gemini-3.1-flash-lite-preview',
       prompt: [
         { text: prompt },
         { media: { url: input.photoDataUri } }
